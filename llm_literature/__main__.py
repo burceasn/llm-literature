@@ -56,7 +56,7 @@ certain_entity_tool = {
 }
 
 chat_client = OpenAI(api_key="ollama", base_url='http://localhost:11434/v1')
-embedding_client = voyageai.Client(api_key="pa-IzZvuh9i6OvyG4ECNKfxZlWOeuk3-i3IMe4d8TsOV84")
+embedding_client = voyageai.Client(api_key="your api key") 
 Entity.set_embedding_client(embedding_client)
 
 # Initialize variables
